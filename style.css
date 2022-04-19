@@ -1,0 +1,80 @@
+body{
+  background: #3ed33e;
+  background: -webkit-radial-gradient(top right, #3ed33e, #216ca9);
+  background: -moz-radial-gradient(top right, #3ed33e, #216ca9);
+  background: radial-gradient(to bottom left, #3ed33e, #216ca9);
+  background size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  
+  
+}
+
+header {
+  font-size:larger;
+  text-align:center;
+  color:white;
+  
+}
+#description {
+  font-size:20px;
+  font-style: italic;
+  line-height:20px;
+  margin-bottom:20px;
+}
+
+form {
+  width: 500px;
+  margin:auto;
+  background: rgba(0,0,255, 0.3);
+  padding:50px;
+  box-sizing:border-box;
+  border-radius:10px;
+  color: white;
+  font-size:larger;
+  
+
+}
+
+#name,textarea, #email {
+  width:100%;
+  margin-bottom:20px;
+  padding:7px;
+  box-sizing:border-box;
+  
+}
+
+
+
+.input-textarea {
+  height:50px;
+  width:380px;
+  
+}
+
+
+#submit {
+  font-size:20px;
+  font-style:bold;
+  margin-left:75px;
+  margin-top:23px;
+  padding-top:7px;
+  padding-bottom:7px;
+  padding-left: 80px;
+  padding-right:80px;
+  background: lightgreen;
+  border: none;
+  border-radius:15px;
+}
+
+#submit:hover {
+  background: yellow;
+  cursor: pointer;
+}
+
+@media (max-width:920px){
+  form{
+    width: 100%;
+  }
+  
+}
