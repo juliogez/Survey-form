@@ -1,0 +1,63 @@
+<!-- header-->
+<header>
+  <h1 id="title">Selection process for web developers</h1>
+  <p id="description">Welcome to our database</p>
+</header>
+
+<!-- section 1-->
+
+<form id="survey-form">
+  <div>
+    <label id="name-label" for="name">NAME</label>
+    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+  </div>
+
+  <div>
+    <label id="email-label" for="email">EMAIL</label>
+    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required="">
+  </div>
+
+  <div>
+    <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+    <input type="number" name="age" id="number" min="18" max="99" class="form-control" placeholder="Age" required="number">
+  </div>
+
+  <div>
+    <p>What is you experience level?</p>
+    <select id="dropdown" name="role" class="form-control" required="">
+      <option disabled="" selected="" value="">Select current role</option>
+      <option value="student">Student</option>
+      <option value="junior">Junior</option>
+      <option value="senior">Senior</option>
+      <option value="lead">Lead</option>
+    </select>
+  </div>
+
+  <div>
+    <p>Would you like to work full remote?</p>
+    <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">Definitely
+    <input name="user-recommend" value="not-sure" type="radio" class="input-radio">Not sure
+
+  </div>
+
+  <div>
+    <p>What kind of projects do you prefer to work on future?</p>
+
+    <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox"> Front-end.
+
+    <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">UI/UX Design.
+
+  </div>
+  <div>
+    <p>Any comments or suggestions?</p>
+    <textarea id="comments" class="input-textarea" col="" row="" name="comment" placeholder="Enter your comment here..."></textarea>
+
+  </div>
+
+  <div>
+
+    <button type="submit" id="submit" class="submit-button">Submit
+    </button>
+
+  </div>
+</form>
